@@ -66,7 +66,7 @@ function App() {
   useEffect(()=> {
     init();
   },[]);
-  const [count, setCount] = useState(0)
+  const [] = useState(0)
 
   return (
     <Wrapper>

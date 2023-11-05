@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import PostTweetFrom from "../components/post-tweetofrom";
-import { auth } from "../firebase";
+
 import Timeline from "../components/timeline";
 
 const Wrapper = styled.div`

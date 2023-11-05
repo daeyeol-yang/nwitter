@@ -45,7 +45,7 @@ const DeleteButton = styled.button`
   cursor: pointer;
 `;
 
-export default function Tweet({ username, photo, tweet, userId, id }: ITweet) {
+export default function Tweet({  photo, tweet, userId, id }: ITweet) {
     const user = auth.currentUser;
     const OnDelete =async()=>{
         const ok = confirm("Are you sure you want to delete this tweet");
