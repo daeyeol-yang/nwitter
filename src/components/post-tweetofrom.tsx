@@ -85,7 +85,7 @@ export default function PostTweetFrom(){
             setLoading(true);
             const doc= await addDoc(collection(db,"tweets"),{
                 tweet,
-                creaatedAt: Date.now(),
+                createdAt: Date.now(),
                 username: user.displayName||"Anonymous",
                 userId: user.uid,
             });
